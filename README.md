@@ -261,88 +261,73 @@ Working across related tables provided practice with joins, aggregation, subquer
 
 ## Repository Structure
 
-The links below open the corresponding files or folders in this GitHub repository. The file links are relative, so they work when this README is displayed on GitHub.
+The repository is organized into three stages, progressing from SQL fundamentals to advanced querying techniques. The structure below provides direct access to the learning materials. Click any filename to open its SQL script.
 
-- [02. Select.sql](01.%20Basic%20SQL/02.%20Select.sql)
-- [03. Limit.sql](01.%20Basic%20SQL/03.%20Limit.sql)
-- [04. Where.sql](01.%20Basic%20SQL/04.%20Where.sql)
-- [05. Comparison Operators.sql](01.%20Basic%20SQL/05.%20Comparison%20Operators.sql)
-- [06. Group by.sql](01.%20Basic%20SQL/06.%20Group%20by.sql)
-- [07. Like and Inlike.sql](01.%20Basic%20SQL/07.%20Like%20and%20Inlike.sql)
-- [08. IN Queries.sql](01.%20Basic%20SQL/08.%20IN%20Queries.sql)
-- [09. Between.sql](01.%20Basic%20SQL/09.%20Between.sql)
-- [10. IS NULL.sql](01.%20Basic%20SQL/10.%20IS%20NULL.sql)
-- [11. AND.sql](01.%20Basic%20SQL/11.%20AND.sql)
-- [12. OR.sql](01.%20Basic%20SQL/12.%20OR.sql)
-- [13. Not.sql](01.%20Basic%20SQL/13.%20Not.sql)
-- [14. Order By.sql](01.%20Basic%20SQL/14.%20Order%20By.sql)
-
-* [02. Count.sql](02.%20Intermediate%20SQL/02.%20Count.sql)
-* [03. Sum.sql](02.%20Intermediate%20SQL/03.%20Sum.sql)
-* [04. Min Max.sql](02.%20Intermediate%20SQL/04.%20Min%20Max.sql)
-* [05. Avg.sql](02.%20Intermediate%20SQL/05.%20Avg.sql)
-* [06. Having.sql](02.%20Intermediate%20SQL/06.%20Having.sql)
-* [07. Case Problems.sql](02.%20Intermediate%20SQL/07.%20Case%20Problems.sql)
-* [08. Case.sql](02.%20Intermediate%20SQL/08.%20Case.sql)
-* [09. Distinct.sql](02.%20Intermediate%20SQL/09.%20Distinct.sql)
-
-**10–15. Joins**
-
-- [10. Joins.sql](02.%20Intermediate%20SQL/10-15.%20Joins/10.%20Joins.sql)
-- [11. Inner Join.sql](02.%20Intermediate%20SQL/10-15.%20Joins/11.%20Inner%20Join.sql)
-- [12-13. Left Join and Right Join.sql](02.%20Intermediate%20SQL/10-15.%20Joins/12-13.%20Left%20Join%20and%20Right%20Join.sql)
-- [14. Full Outer Join.sql](02.%20Intermediate%20SQL/10-15.%20Joins/14.%20Full%20Outer%20Join.sql)
-- [15. Where vs On.sql](02.%20Intermediate%20SQL/10-15.%20Joins/15.%20Where%20vs%20On.sql)
-
-**Set operations and additional joins**
-
-- [16. Union.sql](02.%20Intermediate%20SQL/16.%20Union.sql)
-- [17. Sql joins with comparison operators.sql](02.%20Intermediate%20SQL/17.%20Sql%20joins%20with%20comparison%20operators.sql)
-- [18. SQL Joins on Multiple Keys.sql](02.%20Intermediate%20SQL/18.%20SQL%20Joins%20on%20Multiple%20Keys.sql)
-- [19. SQL Self Join.sql](02.%20Intermediate%20SQL/19.%20SQL%20Self%20Join.sql)
-
-**Foundations**
-
-- [01. Data Types.sql](03.%20Advanced%20SQL/01.%20Data%20Types.sql)
-- [02. DateTime Formatting.sql](03.%20Advanced%20SQL/02.%20DateTime%20Formatting.sql)
-- [03. Data Wrangling.sql](03.%20Advanced%20SQL/03.%20Data%20Wrangling.sql)
-
-**04. String Functions**
-
-- [04. String Functions Level 1.sql](03.%20Advanced%20SQL/04%20String%20Functions/04.%20String%20Functions%20Level%201.sql)
-- [04. String Functions Level 2.sql](03.%20Advanced%20SQL/04%20String%20Functions/04.%20String%20Functions%20Level%202.sql)
-
-**05. Subquery**
-
-- [5. Subquery Day 1.sql](03.%20Advanced%20SQL/05.%20Subquery/5.%20Subquery%20Day%201.sql)
-- [5. Subquery Day 2.sql](03.%20Advanced%20SQL/05.%20Subquery/5.%20Subquery%20Day%202.sql)
-- [5. Subquery Day 3.sql](03.%20Advanced%20SQL/05.%20Subquery/5.%20Subquery%20Day%203.sql)
-- [5. Subquery Day 4.sql](03.%20Advanced%20SQL/05.%20Subquery/5.%20Subquery%20Day%204.sql)
-- [5. Subquery in Select Clause.sql](03.%20Advanced%20SQL/05.%20Subquery/5.%20Subquery%20in%20Select%20Clause.sql)
-- [5. Subquery in where clause.sql](03.%20Advanced%20SQL/05.%20Subquery/5.%20Subquery%20in%20where%20clause.sql)
-- [5. Subquery Test All Topics.sql](03.%20Advanced%20SQL/05.%20Subquery/5.%20Subquery%20Test%20All%20Topics.sql)
-
-**06. Window Functions**
-
-- [6.1 Window Functions Foundations.sql](03.%20Advanced%20SQL/06.%20Window%20Functions/6.1%20Window%20Functions%20Foundations.sql)
-- [6.2 Window Functions Aggregate Functions.sql](03.%20Advanced%20SQL/06.%20Window%20Functions/6.2%20Window%20Functions%20Aggregate%20Functions.sql)
-- [6.3 Window Functions Ranking Functions.sql](03.%20Advanced%20SQL/06.%20Window%20Functions/6.3%20Window%20Functions%20Ranking%20Functions.sql)
-- [6.4 Window Functions Value Functions.sql](03.%20Advanced%20SQL/06.%20Window%20Functions/6.4%20Window%20Functions%20Value%20Functions.sql)
-- [6.5 Window Function Frame Clause.sql](03.%20Advanced%20SQL/06.%20Window%20Functions/6.5%20Window%20Function%20Frame%20Clause.sql)
-- [6.6 Window Functions Advanced Combinations.sql](03.%20Advanced%20SQL/06.%20Window%20Functions/6.6%20Window%20Functions%20Advanced%20Combinations.sql)
-
-**07. CTEs**
-
-- [7.1 CTEs Foundations.sql](03.%20Advanced%20SQL/07.%20CTEs/7.1%20CTEs%20Foundations.sql)
-- [7.2 CTEs Intermediate.sql](03.%20Advanced%20SQL/07.%20CTEs/7.2%20CTEs%20Intermediate.sql)
-- [7.3 CTEs Advanced.sql](03.%20Advanced%20SQL/07.%20CTEs/7.3%20CTEs%20Advanced.sql)
-- [7.4 CTEs Professional Patterns.sql](03.%20Advanced%20SQL/07.%20CTEs/7.4%20CTEs%20Professional%20Patterns.sql)
-
-**Dataset and assessment**
-
-- [Dataset folder](Dataset/)
-- [Advanced SQL Assessment.sql](SQL%20Assessment/Advanced%20SQL%20Assessment.sql)
-
+- **SQL-Learning/**
+  - **[01. Basic SQL/](<01.%20Basic%20SQL/>)**
+    - [02. Select.sql](<01.%20Basic%20SQL/02.%20Select.sql>)
+    - [03. Limit.sql](<01.%20Basic%20SQL/03.%20Limit.sql>)
+    - [04. Where.sql](<01.%20Basic%20SQL/04.%20Where.sql>)
+    - [05. Comparison Operators.sql](<01.%20Basic%20SQL/05.%20Comparison%20Operators.sql>)
+    - [06. Group by.sql](<01.%20Basic%20SQL/06.%20Group%20by.sql>)
+    - [07. Like and Inlike.sql](<01.%20Basic%20SQL/07.%20Like%20and%20Inlike.sql>)
+    - [08. IN Queries.sql](<01.%20Basic%20SQL/08.%20IN%20Queries.sql>)
+    - [09. Between.sql](<01.%20Basic%20SQL/09.%20Between.sql>)
+    - [10. IS NULL.sql](<01.%20Basic%20SQL/10.%20IS%20NULL.sql>)
+    - [11. AND.sql](<01.%20Basic%20SQL/11.%20AND.sql>)
+    - [12. OR.sql](<01.%20Basic%20SQL/12.%20OR.sql>)
+    - [13. NOT.sql](<01.%20Basic%20SQL/13.%20NOT.sql>)
+    - [14. Order By.sql](<01.%20Basic%20SQL/14.%20Order%20By.sql>)
+  - **[02. Intermediate SQL/](<02.%20Intermediate%20SQL/>)**
+    - [02. Count.sql](<02.%20Intermediate%20SQL/02.%20Count.sql>)
+    - [03. Sum.sql](<02.%20Intermediate%20SQL/03.%20Sum.sql>)
+    - [04. Min Max.sql](<02.%20Intermediate%20SQL/04.%20Min%20Max.sql>)
+    - [05. Avg.sql](<02.%20Intermediate%20SQL/05.%20Avg.sql>)
+    - [06. Having.sql](<02.%20Intermediate%20SQL/06.%20Having.sql>)
+    - [07. Case Problems.sql](<02.%20Intermediate%20SQL/07.%20Case%20Problems.sql>)
+    - [08. Case.sql](<02.%20Intermediate%20SQL/08.%20Case.sql>)
+    - [09. Distinct.sql](<02.%20Intermediate%20SQL/09.%20Distinct.sql>)
+    - **10-15. Joins/**
+      - [10. Joins.sql](<02.%20Intermediate%20SQL/10-15.%20Joins/10.%20Joins.sql>)
+      - [11. Inner Join.sql](<02.%20Intermediate%20SQL/10-15.%20Joins/11.%20Inner%20Join.sql>)
+      - [12-13. Left Join and Right Join.sql](<02.%20Intermediate%20SQL/10-15.%20Joins/12-13.%20Left%20Join%20and%20Right%20Join.sql>)
+      - [14. Full Outer Join.sql](<02.%20Intermediate%20SQL/10-15.%20Joins/14.%20Full%20Outer%20Join.sql>)
+      - [15. Where vs On.sql](<02.%20Intermediate%20SQL/10-15.%20Joins/15.%20Where%20vs%20On.sql>)
+    - [16. Union.sql](<02.%20Intermediate%20SQL/16.%20Union.sql>)
+    - [17. Sql joins with comparison operators.sql](<02.%20Intermediate%20SQL/17.%20Sql%20joins%20with%20comparison%20operators.sql>)
+    - [18. SQL Joins on Multiple Keys.sql](<02.%20Intermediate%20SQL/18.%20SQL%20Joins%20on%20Multiple%20Keys.sql>)
+    - [19. SQL Self Join.sql](<02.%20Intermediate%20SQL/19.%20SQL%20Self%20Join.sql>)
+  - **[03. Advanced SQL/](<03.%20Advanced%20SQL/>)**
+    - [01. Data Types.sql](<03.%20Advanced%20SQL/01.%20Data%20Types.sql>)
+    - [02. DateTime Formatting.sql](<03.%20Advanced%20SQL/02.%20DateTime%20Formatting.sql>)
+    - [03. Data Wrangling.sql](<03.%20Advanced%20SQL/03.%20Data%20Wrangling.sql>)
+    - **04. String Functions/**
+      - [04. String Functions Level 1.sql](<03.%20Advanced%20SQL/04%20String%20Functions/04.%20String%20Functions%20Level%201.sql>)
+      - [04. String Functions Level 2.sql](<03.%20Advanced%20SQL/04%20String%20Functions/04.%20String%20Functions%20Level%202.sql>)
+    - **05. Subquery/**
+      - [5. Subquery Day 1.sql](<03.%20Advanced%20SQL/05.%20Subquery/5.%20Subquery%20Day%201.sql>)
+      - [5. Subquery Day 2.sql](<03.%20Advanced%20SQL/05.%20Subquery/5.%20Subquery%20Day%202.sql>)
+      - [5. Subquery Day 3.sql](<03.%20Advanced%20SQL/05.%20Subquery/5.%20Subquery%20Day%203.sql>)
+      - [5. Subquery Day 4.sql](<03.%20Advanced%20SQL/05.%20Subquery/5.%20Subquery%20Day%204.sql>)
+      - [5. Subquery in Select Clause.sql](<03.%20Advanced%20SQL/05.%20Subquery/5.%20Subquery%20in%20Select%20Clause.sql>)
+      - [5. Subquery in where clause.sql](<03.%20Advanced%20SQL/05.%20Subquery/5.%20Subquery%20in%20where%20clause.sql>)
+      - [5. Subquery Test All Topics.sql](<03.%20Advanced%20SQL/05.%20Subquery/5.%20Subquery%20Test%20All%20Topics.sql>)
+    - **06. Window Functions/**
+      - [6.1 Window Functions Foundations.sql](<03.%20Advanced%20SQL/06.%20Window%20Functions/6.1%20Window%20Functions%20Foundations.sql>)
+      - [6.2 Window Functions Aggregate Functions.sql](<03.%20Advanced%20SQL/06.%20Window%20Functions/6.2%20Window%20Functions%20Aggregate%20Functions.sql>)
+      - [6.3 Window Functions Ranking Functions.sql](<03.%20Advanced%20SQL/06.%20Window%20Functions/6.3%20Window%20Functions%20Ranking%20Functions.sql>)
+      - [6.4 Window Functions Value Functions.sql](<03.%20Advanced%20SQL/06.%20Window%20Functions/6.4%20Window%20Functions%20Value%20Functions.sql>)
+      - [6.5 Window Function Frame Clause.sql](<03.%20Advanced%20SQL/06.%20Window%20Functions/6.5%20Window%20Function%20Frame%20Clause.sql>)
+      - [6.6 Window Functions Advanced Combinations.sql](<03.%20Advanced%20SQL/06.%20Window%20Functions/6.6%20Window%20Functions%20Advanced%20Combinations.sql>)
+    - **07. CTEs/**
+      - [7.1 CTEs Foundations.sql](<03.%20Advanced%20SQL/07.%20CTEs/7.1%20CTEs%20Foundations.sql>)
+      - [7.2 CTEs Intermediate.sql](<03.%20Advanced%20SQL/07.%20CTEs/7.2%20CTEs%20Intermediate.sql>)
+      - [7.3 CTEs Advanced.sql](<03.%20Advanced%20SQL/07.%20CTEs/7.3%20CTEs%20Advanced.sql>)
+      - [7.4 CTEs Professional Patterns.sql](<03.%20Advanced%20SQL/07.%20CTEs/7.4%20CTEs%20Professional%20Patterns.sql>)
+  - **[Dataset/](<Dataset/>)**
+    - [dvdrental/](<Dataset/dvdrental/>)
+  - **[SQL Assessment/](<SQL%20Assessment/>)**
+    - [Advanced SQL Assessment.sql](<SQL%20Assessment/Advanced%20SQL%20Assessment.sql>)
 ---
 
 ## Run It Yourself
